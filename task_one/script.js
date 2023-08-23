@@ -19,6 +19,8 @@ if (operations.includes(choose)) {
         case '/':
             result = num1 / num2
             break
+        default:
+            console.log('Неверное значение')
 
     }
     console.log(result)
