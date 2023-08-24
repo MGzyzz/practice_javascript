@@ -25,6 +25,6 @@ switch (choose) {
         result = days[6]
         break
     default:
-        console.log('Неверное значение')
+        alert('Неверное значение')
 }
-console.log(result);
+alert(result);

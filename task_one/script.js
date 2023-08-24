@@ -20,10 +20,10 @@ if (operations.includes(choose)) {
             result = num1 / num2
             break
         default:
-            console.log('Неверное значение')
+            alert('Неверное значение')
 
     }
-    console.log(result)
+    alert(`Результат: ${result}`)
 } else {
-    console.log('Неверная операция')
+    alert('Неверная операция')
 }
